@@ -7,6 +7,7 @@ This repository contains the docker-compose.yml configuration file to set up the
 - Linux distro
 - Node == 10.x
 - Docker > 18.x
+- Docker-compose > 1.23.x
 
 ## Features
 
