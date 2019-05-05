@@ -1,0 +1,26 @@
+version: '3.5'
+services:
+
+  charges-server:
+    container_name: charges_server
+    build: charges-server
+    ports:
+      - "3001:3001"
+    networks:
+      default:
+        aliases:
+         - charges-server
+
+  charges-consumer:
+    container_name: charges_consumer
+    build: charges-consumer
+    ports:
+      - "5000:5000"
+    networks:
+      default:
+        aliases:
+         - charges-consumer
+
+networks:
+  default:
+    name: charges-net

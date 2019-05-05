@@ -1,0 +1,6 @@
+[submodule "charges-consumer"]
+	path = charges-consumer
+	url = https://github.com/esteban24/charges-consumer
+[submodule "charges-server"]
+	path = charges-server
+	url = https://github.com/esteban24/charges-server
