@@ -44,6 +44,12 @@ Feature: Delete charge
 
 ## Installation
 
+Clone the source code and the git submodules charges-server and charges-consumer:
+
+`$ git clone --recursive https://github.com/esteban24/charges-app.git`
+
+And you are ready to go, let's start up the stack with docker-compose
+
 `$ docker-compose up`
 
 And enjoy!
